@@ -1,0 +1,53 @@
+.namazvaxti {
+    padding: 14px;
+}
+.namazvaxti a{
+    text-decoration: none;
+        color: white !important;
+        font-size: 25px;
+}
+.namaz{
+    background-color: rgb(0, 168, 89);
+}
+.ikon a{
+    color: white !important;
+    font-size: 25px;
+}
+.ikon{
+padding: 14px;
+}
+#dataCity{
+    margin: 18px;
+    padding: 8px;
+}
+#myDate{
+    margin: 18px;
+    padding: 8px;
+}
+#prayer-container {
+    width: 300px;
+    text-align: center;
+}
+.prayer_time {
+    font-size: 1.6em;
+    font-weight: 800;
+}
+#prayer-container #prayer_city {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+#prayer-container table {
+    width: 100%
+}
+#prayer-container tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+#prayer-container tbody td {
+    padding: 10px 20px;
+}
+#prayer-container tbody td:nth-child(1) {
+    text-align: left;
+}
+#prayer-container tbody td:nth-child(2) {
+    text-align: right;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz vaxtı</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <section class="namaz">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 namazvaxti">
+                        <a href="namazvaxti">Namaz vaxtı</a>
+                    </div>
+                    <div class="col-md-2 ikon">
+                        <a href=""><i style="margin: 9px;" class ="far fa-compass"></i></a>
+                        <a href=""><i style="margin: 9px;" class="fas fa-info-circle"></i></a>
+                        <a href=""><i style="margin: 9px;" class="fas fa-cog"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+      <div class="container">
+          <div class="row">
+               <div class="col-md-2">
+                <select id="dataCity">
+                    <option value="baku">
+                        Baki
+                    </option>
+                    <option value="ankara">
+                        Ankara
+                    </option>
+                    <option value="Mecca">
+                        Mekke
+                    </option>
+                </select>
+               </div>
+               
+              
+                  
+        <div class="col-md-9">
+            <input type="date" id="myDate" value="2014-11-08">
+        </div>
+              </div>
+          </div>
+          <div style="margin:auto; border:1px solid #c0c0c0" id="prayer-container">
+            <div id="prayer_city"></div>
+            <div id="prayer_date"></div>
+            <div id="prayer_clock"></div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>İmsak</td>
+                        <td id="Imsak"></td>
+                    </tr>
+                    <tr>
+                        <td>Sübh</td>
+                        <td id="subh"></td>
+                    </tr>
+                    <tr>
+                        <td>Zöhr</td>
+                        <td id="zohr"></td>
+                    </tr>
+                    <tr>
+                        <td>Əsr</td>
+                        <td id="Asr"></td>
+                    </tr>
+                    <tr>
+                        <td>Məğrib</td>
+                        <td id="Maghrib"></td>
+                    </tr>
+                    <tr>
+                        <td>İşa</td>
+                        <td id="Isha"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
